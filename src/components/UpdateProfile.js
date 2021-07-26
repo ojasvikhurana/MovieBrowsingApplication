@@ -63,7 +63,7 @@ export default function UpdateProfile() {
                 </Card.Body>
             </Card>
             <div className="w-100 text-center mt-2">
-                <Link className="link" to="/">Cancel</Link>
+                <Link className="link" to="/profile">Cancel</Link>
             </div>
             </div>
         </Container>

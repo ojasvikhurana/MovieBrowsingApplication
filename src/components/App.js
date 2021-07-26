@@ -8,6 +8,7 @@ import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from './ForgotPassword';
 import UpdateProfile from './UpdateProfile';
 import '../styles/app.css'
+import Profile from './Profile';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Switch>
             <PrivateRoute exact path="/" component={Dashboard} />
             <PrivateRoute exact path="/update-profile" component={UpdateProfile} />
+            <PrivateRoute exact path="/profile" component={Profile} />
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
             <Route path="/forgot-password" component={ForgotPassword} />
