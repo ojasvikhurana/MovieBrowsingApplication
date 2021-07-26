@@ -1,3 +1,8 @@
+#About
+
+This is a movie browser application built using React and Firebase which fetches movie collections from the API.
+Get the API key from [https://www.themoviedb.org/](https://www.themoviedb.org/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
